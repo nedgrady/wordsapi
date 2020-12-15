@@ -1,4 +1,3 @@
-export default function someFunction() {
-    console.log("inside some someFunction....")
-    console.log("inside some someFunction with CI....")
-}
+import setupWordsApiClient from './WordsApiClient'
+
+export default setupWordsApiClient
