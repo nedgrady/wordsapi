@@ -7,3 +7,5 @@ declare interface RandomWordResponse {
         typeOf: string[];
     }[];
 }
+
+declare module '@nedgrady/wordsapi'
