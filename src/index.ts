@@ -1,3 +1,3 @@
 import setupWordsApiClient from './WordsApiClient'
 
-export default setupWordsApiClient
+module.exports = setupWordsApiClient;

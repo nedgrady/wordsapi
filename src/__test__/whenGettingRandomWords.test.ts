@@ -1,4 +1,4 @@
-import setupWordsApiClient from '../index'
+import setupWordsApiClient, { RandomWordResponse} from '../WordsApiClient'
 import MockAdapter from 'axios-mock-adapter'
 import axios, { AxiosRequestConfig } from 'axios';
 jest.mock('axios');

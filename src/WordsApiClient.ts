@@ -1,6 +1,6 @@
 import Axios, { AxiosRequestConfig } from "axios"
 
-function setupWordsApiClient(settings: 
+function setupWordsApiClient (settings: 
     { 
         baseUrl: string, 
         'x-rapidapi-host': string, 
@@ -25,3 +25,13 @@ function setupWordsApiClient(settings:
 }
 
 export default setupWordsApiClient
+
+export interface RandomWordResponse {
+    word: string;
+    results: {
+        definition: string;
+        partOfSpeech: string;
+        synonyms: string[];
+        typeOf: string[];
+    }[];
+}
